@@ -67,7 +67,7 @@ def launch_game(account):
             time.sleep(5)
             return launch_game(account)
 
-# Read accounts from file in the format of username|username|runeliteprofile|proxy:port:username:password
+# Read accounts from file in the format of username|password|runeliteprofile|proxy:port:username:password
 def read_accounts_from_file(file_path):
     with open(file_path, 'r') as file:
         return [line.strip() for line in file]
