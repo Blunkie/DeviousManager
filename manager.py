@@ -4,7 +4,7 @@ import subprocess # Used to launch devious launcher and detach from game clients
 
 # Example account row: username|password|runeliteprofile|proxy:port:username:password
 DEVIOUS_LAUNCHER_PATH = "./client.jar" # Launcher path
-ACCOUNTS_PATH = "./accounts.txt" # Launcher path
+ACCOUNTS_PATH = "./accounts.txt" # accounts.txt path new line per acc-> username|password|runeliteprofile|proxy:port:username:password
 LAUNCH_DELAY=15 # Delay between launching accounts
 
 # Parse account row into username, password, runelite profile, and proxy
